@@ -26,3 +26,7 @@ export const getInitials = (name: string) => {
     .toUpperCase()
     .substring(0, 2);
 };
+
+export const lerp = (a: number, b: number, t: number) => {
+  return a + (b - a) * t;
+};

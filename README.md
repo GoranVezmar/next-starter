@@ -61,7 +61,7 @@ Checked items are completed ✅ and unchecked ☐ are in progress or pending.
 - [x] Set up PostgreSQL DB with Docker
 - [x] Set up Drizzle ORM
 - [x] Set up validated environment variables with Zod
-- [] Set up geofencing with GeoLite
+- [ ] Set up geofencing with GeoLite
 - [x] Set up honoRPC
 - [x] Set up light and dark mode
 - [x] Set up translations
@@ -76,15 +76,18 @@ Checked items are completed ✅ and unchecked ☐ are in progress or pending.
 - [x] Create example of form handling with React Hook Form and Zod
 - [x] Create example script for seeding the database
 - [x] Set up Winston logger
-- [] Create example of Google Maps integration
-- [] Implement virtualization technique
-- [] Create example for index-based pagination
-- [] Create example for long polling
-- [] Create example for infinite loading using Intersection Observer
-- [] Set up react-three-fiber, drei and lava controls, and create a basic scene
-- [] Set up payments and subscriptions with Lemon Squeezy
-- [] Create example with tables and TanStack Table (filtering, sorting, dynamic column selection, expandable rows, etc.)
-- [] Set up a few charts (pie, bar, radar, etc.)
+- [ ] Create example of Google Maps integration
+- [ ] Implement virtualization technique
+- [ ] Create example for index-based pagination
+- [ ] Create example for long polling
+- [ ] Create example for infinite loading using Intersection Observer
+- [x] Set up react-three-fiber with drei
+- [x] Create a simple 3D scene with Orbit controls, Leva controls and some interactions with simple meshes
+- [x] Create a simple 3D scene with vertex and fragment shaders, and some simple animations where shader uniforms are updated after user interaction
+- [ ] Create a simple 3D scene with GLTF models, add user interactions to some of it's parts
+- [ ] Set up payments and subscriptions with Lemon Squeezy
+- [ ] Create example with tables and TanStack Table (filtering, sorting, dynamic column selection, expandable rows, etc.)
+- [ ] Set up a few charts (pie, bar, radar, etc.)
 - TBD
 
 ---

@@ -17,7 +17,7 @@ const ConfirmationEmailSentPage = () => {
       </div>
       <div className="w-full max-w-md">
         <div className="p-2 text-center">
-          <h1 className="text-2xl font-bold">{t("pages.confirmationEmailSent.title")}</h1>
+          <h1 className="mb-4 text-2xl font-bold">{t("pages.confirmationEmailSent.title")}</h1>
           <p className="text-muted-foreground">{t("pages.confirmationEmailSent.description")}</p>
         </div>
       </div>

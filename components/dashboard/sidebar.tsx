@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 
-import { ChevronRight, Newspaper, ShoppingBag, TreePalm, User } from "lucide-react";
+import { Box, ChevronRight, Newspaper, ShoppingBag, TreePalm, User } from "lucide-react";
 
 import { Link, usePathname } from "@/i18n/navigation";
 
@@ -24,12 +24,12 @@ import {
 
 const items = [
   {
-    title: "Users",
+    title: "Users (TBD)",
     icon: User,
     url: "/users",
   },
   {
-    title: "Feed",
+    title: "Feed (TBD)",
     icon: Newspaper,
     subItems: [
       {
@@ -52,7 +52,7 @@ const items = [
     ],
   },
   {
-    title: "Vacations",
+    title: "Vacations (TBD)",
     icon: TreePalm,
     subItems: [
       {
@@ -70,7 +70,7 @@ const items = [
     ],
   },
   {
-    title: "Shop",
+    title: "Shop (TBD)",
     icon: ShoppingBag,
     subItems: [
       {
@@ -88,6 +88,20 @@ const items = [
       {
         title: "Create Product",
         url: "/shop/create-product",
+      },
+    ],
+  },
+  {
+    title: "3D playground",
+    icon: Box,
+    subItems: [
+      {
+        title: "Simple geometry (Leva controlls)",
+        url: "/playground-3d/cubes",
+      },
+      {
+        title: "Shaders",
+        url: "/playground-3d/shader-images",
       },
     ],
   },
