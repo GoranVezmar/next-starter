@@ -72,14 +72,8 @@ export const ShaderImage = () => {
       materialRef.current.uniforms.uOffset.value.x = Math.sin(dx);
       materialRef.current.uniforms.uOffset.value.y = Math.sin(dy);
 
-      const ndc = {
-        x: (lerpedX / window.innerWidth) * 2 - 1,
-        y: -(lerpedY / window.innerHeight) * 2 + 1,
-      };
-
-      meshRef.current.position.x = ndc.x;
-      meshRef.current.position.y = -0.01;
-      meshRef.current.position.z = -ndc.y;
+      meshRef.current.position.x = (lerpedX / window.innerWidth) * 2 - 1;
+      meshRef.current.position.z = (lerpedY / window.innerHeight) * 2 - 1;
     }
   });
 
