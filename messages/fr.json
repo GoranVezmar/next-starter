@@ -1,0 +1,40 @@
+{
+  "createPostForm": {
+    "message": "Bonjour {name} ! Qu'avez-vous en tête aujourd'hui ?",
+    "title": {
+      "label": "Titre",
+      "placeholder": "Tapez le titre de la publication",
+      "description": "Assurez-vous d'avoir un bon crochet !",
+      "validation": {
+        "required": "Le titre est requis.",
+        "minLength": "Le titre doit comporter au moins {min} caractères.",
+        "maxLength": "Le titre doit comporter au maximum {max} caractères."
+      }
+    },
+    "content": {
+      "label": "Contenu",
+      "placeholder": "Tapez le contenu de la publication",
+      "description": "Assurez-vous que vos abonnés prennent plaisir à lire ceci !",
+      "validation": {
+        "required": "Le contenu est requis.",
+        "minLength": "Le contenu doit comporter au moins {min} caractères.",
+        "maxLength": "Le contenu doit comporter au maximum {max} caractères."
+      }
+    },
+    "button": {
+      "label": "Créer la publication"
+    },
+    "toast": {
+      "loading": {
+        "message": "Création de la publication..."
+      },
+      "success": {
+        "message": "Publication créée avec succès !",
+        "linkLabel": "Voir"
+      },
+      "error": {
+        "message": "Erreur lors de la création de la publication."
+      }
+    }
+  }
+}

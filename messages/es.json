@@ -1,0 +1,40 @@
+{
+  "createPostForm": {
+    "message": "¡Hola {name}! ¿Qué tienes en mente hoy?",
+    "title": {
+      "label": "Título",
+      "placeholder": "Escribe el título de la publicación",
+      "description": "¡Asegúrate de tener un buen gancho!",
+      "validation": {
+        "required": "El título es obligatorio.",
+        "minLength": "El título debe tener al menos {min} caracteres.",
+        "maxLength": "El título debe tener como máximo {max} caracteres."
+      }
+    },
+    "content": {
+      "label": "Contenido",
+      "placeholder": "Escribe el contenido de la publicación",
+      "description": "¡Asegúrate de que tus seguidores se diviertan al leer esto!",
+      "validation": {
+        "required": "El contenido es obligatorio.",
+        "minLength": "El contenido debe tener al menos {min} caracteres.",
+        "maxLength": "El contenido debe tener como máximo {max} caracteres."
+      }
+    },
+    "button": {
+      "label": "Crear publicación"
+    },
+    "toast": {
+      "loading": {
+        "message": "Creando publicación..."
+      },
+      "success": {
+        "message": "¡Publicación creada con éxito!",
+        "linkLabel": "Ver"
+      },
+      "error": {
+        "message": "Error al crear la publicación."
+      }
+    }
+  }
+}

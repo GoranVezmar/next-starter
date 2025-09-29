@@ -1,0 +1,150 @@
+{
+  "createPostForm": {
+    "message": "Hallo {name}! Was möchtest du heute teilen?",
+    "title": {
+      "label": "Titel",
+      "placeholder": "Titel eingeben",
+      "description": "Sorge für einen guten Einstieg!",
+      "validation": {
+        "required": "Titel ist erforderlich.",
+        "minLength": "Der Titel muss mindestens {min} Zeichen lang sein.",
+        "maxLength": "Der Titel darf maximal {max} Zeichen lang sein."
+      }
+    },
+    "content": {
+      "label": "Inhalt",
+      "placeholder": "Inhalt eingeben",
+      "description": "Sorge dafür, dass deine Follower Spaß beim Lesen haben!",
+      "validation": {
+        "required": "Inhalt ist erforderlich.",
+        "minLength": "Der Inhalt muss mindestens {min} Zeichen lang sein.",
+        "maxLength": "Der Inhalt darf maximal {max} Zeichen lang sein."
+      }
+    },
+    "button": {
+      "label": "Beitrag erstellen"
+    },
+    "toast": {
+      "loading": {
+        "message": "Beitrag wird erstellt..."
+      },
+      "success": {
+        "message": "Beitrag erfolgreich erstellt!",
+        "linkLabel": "Ansehen"
+      },
+      "error": {
+        "message": "Fehler beim Erstellen des Beitrags."
+      }
+    }
+  },
+  "layouts": {
+    "auth": {
+      "subTitle": "Willkommen bei",
+      "title": "Next Starter",
+      "bottomText": "Wenn du auf „Weiter“ klickst, stimmst du unseren <termsLink>Nutzungsbedingungen</termsLink> und unserer <privacyLink>Datenschutzerklärung</privacyLink> zu."
+    }
+  },
+  "forms": {
+    "signUp": {
+      "title": "Registrieren",
+      "description": "Erstelle ein Konto, um deine Gedanken zu teilen.",
+      "button": {
+        "label": "Registrieren"
+      },
+      "bottomText": "Schon ein Konto? <link>Anmelden</link>",
+      "toast": {
+        "loading": {
+          "message": "Registrierung läuft..."
+        },
+        "success": {
+          "message": "Erfolgreich registriert!"
+        },
+        "error": {
+          "generalMessage": "Fehler bei der Registrierung. Bitte versuche es erneut.",
+          "userAlreadyExists": "Benutzer existiert bereits. Bitte verwende eine andere E‑Mail."
+        }
+      }
+    },
+    "signIn": {
+      "title": "Anmelden",
+      "description": "Willkommen zurück! Bitte melde dich an, um fortzufahren.",
+      "button": {
+        "label": "Anmelden"
+      },
+      "toast": {
+        "loading": {
+          "message": "Anmeldung läuft..."
+        },
+        "success": {
+          "message": "Erfolgreich angemeldet!"
+        },
+        "error": {
+          "message": "Fehler beim Anmelden."
+        }
+      }
+    },
+    "shared": {
+      "orContinueWith": "Oder fahre fort mit"
+    }
+  },
+  "formFields": {
+    "name": {
+      "label": "Name",
+      "placeholder": "Deinen Namen eingeben",
+      "description": "Wir nutzen diesen Namen zur Personalisierung deiner Erfahrung.",
+      "errors": {
+        "required": "Name ist erforderlich.",
+        "tooShort": "Der Name muss mindestens {min} Zeichen lang sein."
+      }
+    },
+    "email": {
+      "label": "E‑Mail",
+      "placeholder": "Deine E‑Mail eingeben",
+      "description": "Wir senden dir eine Bestätigungsmail.",
+      "errors": {
+        "required": "E‑Mail ist erforderlich.",
+        "invalid": "E‑Mail ist ungültig."
+      }
+    },
+    "password": {
+      "label": "Passwort",
+      "placeholder": "Dein Passwort eingeben",
+      "description": "Achte darauf, dass dein Passwort sicher ist.",
+      "errors": {
+        "required": "Passwort ist erforderlich.",
+        "tooShort": "Das Passwort muss mindestens {min} Zeichen lang sein."
+      }
+    },
+    "confirmPassword": {
+      "label": "Passwort bestätigen",
+      "placeholder": "Passwort erneut eingeben",
+      "description": "Stelle sicher, dass deine Passwörter übereinstimmen.",
+      "errors": {
+        "required": "Passwortbestätigung ist erforderlich.",
+        "noMatch": "Passwörter müssen übereinstimmen."
+      }
+    },
+    "socialButtons": {
+      "google": "Mit Google fortfahren",
+      "github": "Mit GitHub fortfahren"
+    }
+  },
+  "emailTemplates": {
+    "verifyEmail": {
+      "subject": "Bestätige deine E-Mail-Adresse",
+      "title": "Bestätige deine E-Mail-Adresse",
+      "description": "Danke {username}, dass du dich registriert hast! Um deine Anmeldung abzuschließen und dein Konto zu sichern, bestätige bitte deine E-Mail-Adresse, indem du auf den untenstehenden Button klickst.",
+      "button": {
+        "label": "E-Mail-Adresse bestätigen"
+      },
+      "fullLinkDescription": "Wenn der Button nicht funktioniert, kannst du diesen Link in deinen Browser kopieren und einfügen:",
+      "expiration": "Dieser Bestätigungslink ist 24 Stunden gültig. Wenn du kein Konto erstellt hast, kannst du diese E-Mail ignorieren.",
+      "bestRegards": "Mit freundlichen Grüßen,",
+      "teamName": "Das Next Starter Team",
+      "companyName": "Firmenname",
+      "address": "Geschäftsstraße 123, Büro 100",
+      "city": "Stadt, Bundesland 12345",
+      "disclaimer": "© 2024 Firmenname. Alle Rechte vorbehalten."
+    }
+  }
+}

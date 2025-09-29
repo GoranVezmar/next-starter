@@ -1,0 +1,202 @@
+{
+  "createPostForm": {
+    "message": "Hello {name}! What is on your mind today?",
+    "title": {
+      "label": "Title",
+      "placeholder": "Type in post title",
+      "description": "Make sure you have a good hook!",
+      "validation": {
+        "required": "Title is required.",
+        "minLength": "Title must be at least {min} characters long.",
+        "maxLength": "Title must be at most {max} characters long."
+      }
+    },
+    "content": {
+      "label": "Content",
+      "placeholder": "Type in post content",
+      "description": "Make sure your followers have fun reading this!",
+      "validation": {
+        "required": "Content is required.",
+        "minLength": "Content must be at least {min} characters long.",
+        "maxLength": "Content must be at most {max} characters long."
+      }
+    },
+    "button": {
+      "label": "Create post"
+    },
+    "toast": {
+      "loading": {
+        "message": "Creating post..."
+      },
+      "success": {
+        "message": "Post created successfully!",
+        "linkLabel": "View"
+      },
+      "error": {
+        "message": "Error creating post."
+      }
+    }
+  },
+  "layouts": {
+    "auth": {
+      "subTitle": "Welcome to",
+      "title": "Next Starter",
+      "bottomText": "By clicking continue, you agree to our <termsLink>Terms of Service</termsLink> and <privacyLink>Privacy Policy</privacyLink>."
+    }
+  },
+  "forms": {
+    "signUp": {
+      "title": "Sign up",
+      "description": "Create an account to start sharing your thoughts.",
+      "button": {
+        "label": "Sign up"
+      },
+      "bottomText": "Already have an account? <link>Sign in</link>",
+      "toast": {
+        "loading": {
+          "message": "Signing up..."
+        },
+        "success": {
+          "message": "Signed up successfully!"
+        },
+        "error": {
+          "generalMessage": "Error signing up. Please try again.",
+          "userAlreadyExists": "User already exists. Please try a different email."
+        }
+      }
+    },
+    "signIn": {
+      "title": "Sign in",
+      "description": "Welcome back! Please sign in to continue.",
+      "forgotPassword": "Forgot password?",
+      "button": {
+        "label": "Sign in"
+      },
+      "bottomText": "Don't have an account? <link>Sign up</link>",
+      "toast": {
+        "loading": {
+          "message": "Signing in..."
+        },
+        "success": {
+          "message": "Signed in successfully!"
+        },
+        "error": {
+          "message": "Error signing in."
+        },
+        "verified": {
+          "message": "Your email has been successfully verified!",
+          "description": "You can now log in."
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Forgot Password?",
+      "description": "No worries! We'll send you reset instructions.",
+      "button": {
+        "label": "Reset password"
+      },
+      "toast": {
+        "loading": {
+          "message": "Sending reset instructions..."
+        },
+        "success": {
+          "message": "Reset instructions sent successfully!",
+          "description": "Please check your email for the instructions."
+        },
+        "error": {
+          "message": "Error sending reset instructions."
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "description": "Enter your new password below.",
+      "button": {
+        "label": "Reset password"
+      },
+      "toast": {
+        "loading": {
+          "message": "Resetting password..."
+        },
+        "success": {
+          "message": "Password reset successfully!"
+        },
+        "error": {
+          "message": "Error resetting password."
+        }
+      }
+    },
+    "shared": {
+      "orContinueWith": "Or continue with"
+    }
+  },
+  "formFields": {
+    "name": {
+      "label": "Name",
+      "placeholder": "Type in your name",
+      "description": "We will use this name to personalize your experience.",
+      "errors": {
+        "required": "Name is required.",
+        "tooShort": "Name must be at least {min} characters long."
+      }
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Type in your email",
+      "description": "We will send you a confirmation email.",
+      "errors": {
+        "required": "Email is required.",
+        "invalid": "Email is invalid."
+      }
+    },
+    "password": {
+      "label": "Password",
+      "placeholder": "Type in your password",
+      "description": "Make sure your password is strong.",
+      "errors": {
+        "required": "Password is required.",
+        "tooShort": "Password must be at least {min} characters long."
+      }
+    },
+    "confirmPassword": {
+      "label": "Confirm Password",
+      "placeholder": "Type in your password again",
+      "description": "Make sure your passwords match.",
+      "errors": {
+        "required": "Confirm Password is required.",
+        "noMatch": "Passwords must match."
+      }
+    },
+    "socialButtons": {
+      "google": "Continue with Google",
+      "github": "Continue with GitHub"
+    }
+  },
+  "emailTemplates": {
+    "verifyEmail": {
+      "subject": "Verify your email address",
+      "title": "Verify your email address",
+      "description": "Thanks {username} for signing up! To complete your registration and secure your account, please verify your email address byclicking the button below.",
+      "button": {
+        "label": "Verify Email Address"
+      },
+      "fullLinkDescription": "If the button doesn't work, you can copy and paste this link into your browser:",
+      "expiration": "This verification link will expire in 24 hours. If you didn&apos;t create an account, you can safely ignore this email.",
+      "bestRegards": "Best regards,",
+      "teamName": "The Next Starter Team",
+      "companyName": "Company Name",
+      "address": "123 Business Street, Suite 100",
+      "city": "City, State 12345",
+      "disclaimer": "© 2024 Company Name. All rights reserved."
+    },
+    "resetPassword": {
+      "subject": "Reset your password"
+    }
+  },
+  "pages": {
+    "confirmationEmailSent": {
+      "title": "Confirmation Email Sent",
+      "description": "Please check your email for a confirmation link. If you don't see it, please check your spam folder."
+    }
+  }
+}
